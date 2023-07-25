@@ -24,7 +24,6 @@ let petBreed = '';
 let petAge = '';
 let petPhoto = '';
 
-
 for (let i = 0; i < pets.length; i++) {
   let name = pets[i].name;
   let type = pets[i].type;
@@ -32,7 +31,6 @@ for (let i = 0; i < pets.length; i++) {
     
   }
 }
-
 
 function createListItems(arr) {
   let items = '';
@@ -49,8 +47,6 @@ ${createListItems(petType)}
 `;
 
 document.querySelector('main').innerHTML = html;
-
-
 
 for (let petProp in pets) {
   console.log(pets[petProp]);
